@@ -76,7 +76,7 @@ export default function Home() {
     });
   };
 
-  const addNewTask = () => {
+  const addNewTask = async () => {
     if (!input) {
       return;
     }
